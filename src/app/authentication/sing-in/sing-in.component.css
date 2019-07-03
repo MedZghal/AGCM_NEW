@@ -1,0 +1,14 @@
+<<<<<<< HEAD
+
+
+help-info{
+  color: orangered;
+=======
+.form-control{border-radius:30px ;}
+
+.input-group-addon{
+  border-radius:30px ;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+>>>>>>> second commit
+}

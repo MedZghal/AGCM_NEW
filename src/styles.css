@@ -1,0 +1,154 @@
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@import "~ngx-toastr/toastr.css";
+@import '~dhtmlx-scheduler/codebase/dhtmlxscheduler_flat.css';
+<<<<<<< HEAD
+=======
+
+>>>>>>> second commit
+/*@import '~dhtmlx-scheduler/codebase/dhtmlxscheduler.css';*/
+
+body {
+  /*font-family: cursive;*/
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+}
+
+#wrap {
+  margin: -10px 10px 0px;
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  float: right;
+  padding: 0;
+  position: relative;
+}
+
+input[type="search"] {
+  height: 50px;
+  font-size: 30px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  border: none;
+  outline: none;
+  color: #555;
+  padding: 3px;
+  padding-right: 60px;
+  width: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: none;
+  z-index: 3;
+  transition: width .4s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+  cursor: pointer;
+}
+
+input[type="search"]:focus:hover {
+  border-bottom: 1px solid #BBB;
+}
+
+input[type="search"]:focus {
+  width: 700px;
+  z-index: 1;
+  border-bottom: 1px solid #BBB;
+  cursor: text;
+}
+input[type="submit"] {
+  height: 44px;
+  width: 43px;
+  display: inline-block;
+  color:red;
+  float: right;
+  background: url("./assets/img/twotone-search-24px.svg") no-repeat;
+  background-size: cover;
+  text-indent: -10000px;
+  border: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  cursor: pointer;
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity .4s ease;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+<<<<<<< HEAD
+/*.card{*/
+  /*min-height: 700px;*/
+/*}*/
+
+/*.dhx_cal_container div{*/
+  /*margin-right: -1px;*/
+/*}*/
+=======
+
+
+/************************* Menu principale dashbord *************************/
+.menu-hover-lines {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.35s ease;
+}
+
+.menu-hover-lines li div {
+  padding: 0.75rem 0;
+  color: rgba(10, 10, 10, 0.5);
+  position: relative;
+  margin-left: 1rem;
+}
+
+
+.menu-hover-lines li:first-child div {
+  margin-left: 0;
+}
+
+.menu-hover-lines li.active > div {
+  background-color: transparent;
+}
+
+.menu-hover-lines div:before,
+.menu-hover-lines div::after {
+  height: 3px;
+  position: absolute;
+  content: '';
+  transition: all 0.35s ease;
+  background-color: #1779ba;
+  width: 0;
+}
+
+.menu-hover-lines div::before {
+  top: 0;
+  left: 0;
+}
+
+.menu-hover-lines div::after {
+  bottom: 0;
+  right: 0;
+}
+
+.menu-hover-lines div:hover,
+.menu-hover-lines li.active > div {
+  cursor: pointer;
+  color: #0a0a0a;
+  transition: all 0.35s ease;
+}
+
+.menu-hover-lines div:hover::before,
+.menu-hover-lines .active div::before,
+.menu-hover-lines div:hover::after,
+.menu-hover-lines .active div::after {
+  width: 100%;
+}
+/************************* Menu principale dashbord End *************************/
+
+>>>>>>> second commit
